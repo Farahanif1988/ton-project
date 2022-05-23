@@ -1,0 +1,135 @@
+body {
+    background-color:white;
+    margin: 0 ;
+    font-family: Mulish,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    --text_light_primary: #000000;
+    --text_light_secondary: #728a96;
+    --text_primary: #fff;
+}
+.head-link {
+    float: none;
+    list-style-type: none;
+    text-align: center;
+    text-decoration-color:#fff; 
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-image: linear-gradient(90deg,#9bcfb3 -18.26%,#08c); 
+}
+.link-ad {
+text-decoration: none;
+font-size: 10px;
+font-family:'Courier New', Courier, monospace;
+color: var(--text_primary);
+Position: sticky;
+}
+
+.link-ad :active {
+text-decoration: underline;
+}
+  .whole{
+background-color:#353538;
+padding-bottom: 10px;
+position: fixed; 
+position: sticky;
+width: 100%;
+top: 25px;
+box-sizing: border-box;
+}
+  .navagation {
+    display: flex;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+    padding-top:10px;
+    color: var(--text_primary)
+}
+
+.logo-ton{
+    display: flex;
+    justify-content: first baseline;
+    height: 10%;
+}
+.image-ton {  
+  width:80%;  
+  height: 80%;
+  }  
+  .ax {  
+  max-width: 100%;  
+  max-height: 100%;  
+  padding-top:10px;
+  }  
+  .ton{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5px;
+      font-size: 13px;
+  }
+
+  .category {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 12px;
+    font-weight:bold;
+    padding: 10px;
+    padding-left: 70px; 
+    padding-right: 70px;
+    height: 10%;  
+}
+
+
+.github-logo{
+    display: flex;
+    justify-content: first baseline;
+    height: 10%;
+    width: 20%;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 40px;
+}
+.github-text {
+    padding-left: 7px;
+}
+.whole-1{
+    background-color:#353538;
+    width: 100%;
+
+}
+.container {
+    display: flex;
+    margin-left: 11.5%;
+    margin-right: 11.5%;
+}
+.top-titel-left {
+    width: 70%;
+
+}
+.titel1{
+    font-size: 43px;
+    line-height: 49px; 
+    font-weight: bold;
+    color: white;
+    padding-top: 120px;
+}
+.titel2 {
+    font-size: 43px;
+    line-height: 49px; 
+    font-weight: bold;
+    color: #08c;
+}
+.paragragh{
+    color: hsla(0,0%,100%,0.7);
+    font-size: 12px;
+    line-height: 20px;
+
+}
+.vido-dimond {
+ width: 50%;
+
+}
+.dimond {
+    width: 100px;
+    height: 100px;
+   
+}
