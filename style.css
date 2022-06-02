@@ -68,6 +68,7 @@ body {
     padding-top: 8px;
     padding-bottom: 8px;
     background-image: linear-gradient(90deg,#9bcfb3 -18.26%,#08c); 
+    height: 2%;
 }
 
 .link-ad {
@@ -82,13 +83,13 @@ Position: sticky;
 text-decoration: underline;
 }
   .whole{
-background-color:#353538;
-padding-bottom: 10px;
-position: fixed; 
 position: sticky;
 width: 100%;
-top: 25px;
+background-color:#353538;
+top:10px;
 box-sizing: border-box;
+padding-bottom: 10px;
+
 }
   .navagation {
     display: flex;
@@ -213,7 +214,7 @@ box-sizing: border-box;
     padding-bottom: 10%;
 }
 
-.row2 {
+.section2 {
     display: block;
     padding-top: 90px;
 }
@@ -229,16 +230,39 @@ line-height: 45px;
 font-weight: bold;
 }
 .description{
-    max-width: 400px;
+    max-width: 45%;
     margin: -20px auto;
     text-align: center;
-    padding-bottom: 64px;
+    padding-bottom: 10%;
     color: var(--text_light_secondary);
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 14px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 13px;
     line-height: 25px;
+ 
+  }
+.blockchain-transaction {
+  position:relative; 
+  border-radius: 24px;
+  padding: 35px 40px;
+  box-sizing: border-box;
+  width: 25%;
+  background-color: var(--background_light_main);
+  display: flex;
+  height: 100px;
+  overflow: hidden;
+
 }
+.blockchain-transaction-icon {
+  display: block;
+  position: absolute;
+  right:-10%;
+  bottom: 10%;
+  transform: translateX(-50);
+
+
+}
+
 .carts {
     display: flex;
     justify-content: space-around;
@@ -267,6 +291,7 @@ padding-bottom:20px ;
     left: 260px;
     text-align: center;
     transform: translateY(-50%);
+    color:red;
 }
 
 .cart2 {
@@ -294,10 +319,10 @@ padding-bottom:25px ;
     text-align: center;
     transform: translateY(-50%);
 }
-.row3{
-    margin: 70px 25px;
+.section3{
+    margin: 5% 5%;
 }
-.border-row-3{
+.border-section-3{
     display: flex;
     justify-content: space-around;
     border-radius: 40px;
@@ -305,7 +330,7 @@ padding-bottom:25px ;
     margin: auto;
     padding: 50px;
 }
-.left-of-row3{
+.left-of-section3{
     width: 70%;
     padding-left: 5%;
 }
@@ -323,13 +348,23 @@ padding-bottom:25px ;
     display: flex;
     justify-content: center;
     border: 0.4px solid var(--text_light_secondary);
-    width: 10%;
+    width: 5%;
     font-size: 12px;
     padding: 2px 2px;
     border-radius: 4px;
     color: var(--text_light_secondary);
 }
-.timeline{
+.link-in-section3{
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--hovered_link);
+  font-weight: 800px;
+}
+.button1 {
+  display: flex;
+  justify-content:left;
+}
+/* .timeline{
     display: flex;  
     position: relative;
     margin-top: 1rem;
@@ -426,4 +461,4 @@ padding-bottom:25px ;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     transform: translateY(100%);
-  }
+  } */
